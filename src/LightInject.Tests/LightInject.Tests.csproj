@@ -24,6 +24,7 @@
     <DefineConstants>TRACE;DEBUG;NET46</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -32,6 +33,7 @@
     <DefineConstants>TRACE;NET46</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LightMock, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
@@ -92,7 +94,7 @@
     <Compile Include="LazyCompositionRootTests.cs" />
     <Compile Include="LoggingTests.cs" />
     <Compile Include="MethodBuilderMethodSkeleton.cs" />
-    <Compile Include="PerLogicalCallContextTests.cs" />    
+    <Compile Include="PerLogicalCallContextTests.cs" />
     <Compile Include="OpenGenericTests.cs" />
     <Compile Include="PropertyInjectionVerificationTests.cs" />
     <Compile Include="PropertySelectorTests.cs" />
