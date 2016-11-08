@@ -36,6 +36,14 @@
     <CodeAnalysisRuleSet />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentAssertions, Version=4.16.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.16.0\lib\net45\FluentAssertions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentAssertions.Core, Version=4.16.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.16.0\lib\net45\FluentAssertions.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="LightMock, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\LightMock.1.0.0.5\lib\portable-net40+sl50+win+wp80\LightMock.dll</HintPath>
       <Private>True</Private>
@@ -94,6 +102,7 @@
     <Compile Include="LazyCompositionRootTests.cs" />
     <Compile Include="LoggingTests.cs" />
     <Compile Include="MethodBuilderMethodSkeleton.cs" />
+    <Compile Include="MyTriangulationTests.cs" />
     <Compile Include="PerLogicalCallContextTests.cs" />
     <Compile Include="OpenGenericTests.cs" />
     <Compile Include="PropertyInjectionVerificationTests.cs" />
